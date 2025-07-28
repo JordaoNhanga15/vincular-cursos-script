@@ -1,0 +1,16 @@
+{
+  "name": "vincular-cursos-mirempet",
+  "version": "1.0.0",
+  "description": "Script de integração para vincular automaticamente cursos, unidades orgânicas e universidades no sistema do MIREMPET a partir de um ficheiro CSV estruturado.",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordão de Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.1"
+  }
+}

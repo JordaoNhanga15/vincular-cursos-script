@@ -1,0 +1,8 @@
+.vscode-upload.json
+vscode-upload.json
+node_modules/
+package-lock.json
+.DS_Store
+*.log
+*.env
+*.tmp
