@@ -1,12 +1,16 @@
 // Requisitos de bibliotecas
 require('dotenv').config();
 const axios = require('axios');
+const https = require('https'); // ADICIONA ISTO
 const fs = require('fs');
 const csv = require('csv-parser');
 const FormData = require('form-data');
 
 // Base URL
 const BASE_URL = process.env.BASE_URL;
+
+// Ignora erros de certificado SSL
+axios.defaults.httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 // Logger auxiliar
 function log(message) {
